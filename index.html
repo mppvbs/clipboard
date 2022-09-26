@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simple Tailwind Start</title>
+</head>
+
+<body>
+    <!--Hero section-->
+    <section id="hero">
+        <div class="max-w-6xl mx-auto text-center mb-40 px-10 pt-16">
+            <img src="images/logo.svg" alt="" class="mx-auto my-16">
+
+            <h3 class="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">Um histórico de tudo que você copia
+            </h3>
+
+            <p class="max-w-3 xl mx-auto mb-10 text-2xl text-grayishBlue">
+                Clipoard permite que você acompanhe e organize tudo que você copia.
+                Instantaneamente acesse seu clipboard em todos os seus dispositivos.
+            </p>
+        </div>
+    </section>
+
+    <section id="snippets">
+        <div class="max-w-6xl mx-auto text-center my-20 px-10">
+            <h3 class="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
+                Acompanhe seus recortes
+            </h3>
+            <p class="max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-grayishBlue">
+                Clipboard instantaneamente guarda qualquer item que você copiar diretamente na nuvem. Isso significa que
+                você pode acessar todo o conteúdo que foi recortado imediatamente nos seus dispositivos. Nosso
+                aplicativo ajudará você a organizar tudo.
+            </p>
+        </div>
+    </section>
+    <!-- Item 1 -->
+    <div>
+        <section id="features">
+            <div class="section-container my-20">
+                <div class="relative flex flex-col md:flex-row md:space-x-32">
+                    <!-- Image -->
+                    <div class="md:w-1/2">
+                        <img src="images/image-computer.png" alt="" class="md:absolute top-0 right-[50%]" />
+                    </div>
+
+                    <!-- Items Container -->
+                    <div class="flex flex-col mt-16 mb-24 space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16">
+                        <!-- Item 1 -->
+                        <div>
+                            <h5>Pesquisa rápida</h5>
+                            <p class="max-w-md text-grayishBlue">
+                                Procure facilmente pelos seus cortes ordenando-os por categoria, endereço web, conteúdo,
+                                categoria, e mais.
+                            </p>
+                        </div>
+                        <!-- Item 2 -->
+                        <div>
+                            <h5>iCloud Sync</h5>
+                            <p class="max-w-md text-grayishBlue">
+                                Salve instantaneamente seus recortes nos seus dispositívos e em nuvem.
+                            </p>
+                        </div>
+                        <!-- Item 3 -->
+                        <div>
+                            <h5>Histórico completo</h5>
+                            <p class="max-w-md text-grayishBlue">
+                                Recupere qualquer recorte feito desde que você começou a usar o aplicativo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Access Anywhere Section -->
+        <section id="access">
+            <div class="section-container my-20">
+                <h3>Acesse em qualquer lugar</h3>
+                <p class="section-content mb-24 text-xl">
+                    Esteja você em trânsito ou em seu computador, você pode acessar todos os seus
+                    recortes da área de transferência em alguns cliques.
+                </p>
+
+                <img src="images/image-devices.png" alt="" class="mx-auto" />
+            </div>
+        </section>
+
+        <!-- Supercharge Section -->
+        <section id="supercharge">
+            <div class="section-container my-20">
+                <h3>Turbine seu fluxo de trabalho</h3>
+                <p class="section-content mb-16 text-xl">
+                    Temos as ferramentas para aumentar a sua produtividade.
+                </p>
+                <!-- Items Container -->
+                <div
+                    class="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12">
+                    <!-- Item 1 -->
+                    <div class="flex flex-col items-center space-y-5">
+                        <img src="images/icon-blacklist.svg" alt="" class="mb-6" />
+                        <h5>Crie Blacklists</h5>
+                        <p class="max-w-md text-grayishBlue">
+                            Pesquise facilmente seus snippets por conteúdo, categoria, endereço da web, aplicativo e muito mais.
+                        </p>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="flex flex-col items-center space-y-5">
+                        <img src="images/icon-text.svg" alt="" class="mb-6" />
+                        <h5>Trechos de Texto Simples</h5>
+                        <p class="max-w-md text-grayishBlue">
+                            Remova a formatação indesejada do texto copiado para uma aparência consistente.
+                        </p>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="flex flex-col items-center space-y-5">
+                        <img src="images/icon-preview.svg" alt="" class="mb-6" />
+                        <h5>Pré-visualização</h5>
+                        <p class="max-w-md text-grayishBlue">
+                            Visualização rápida de todos os trechos em sua área de transferência para fácil acesso.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section id="references">
+            <div
+                class="flex flex-col items-center justify-between max-w-6xl px-10 mx-auto space-y-16 my-44 md:flex-row md:space-y-0">
+                <img src="images/logo-google.png" alt="" />
+                <img src="images/logo-ibm.png" alt="" />
+                <img src="images/logo-microsoft.png" alt="" />
+                <img src="images/logo-hp.png" alt="" />
+                <img src="images/logo-vector-graphics.png" alt="" />
+            </div>
+        </section>
+
+        <!-- Bottom CTA Section -->
+        <section id="bottom">
+            <div class="section-container my-20">
+                <h3>Clipboard para Windows e Linux</h3>
+                <p class="section-content mb-10 text-xl">
+                    Disponível gratuitamente na Microsoft Store. Baixe para Windows ou Linux, sincronize
+                    com o Google Drive e você está pronto para começar a adicionar à sua área de transferência.
+                </p>
+
+                <!-- Button Container -->
+                <div class="button-container">
+                    <a href="#" class="p-4 px-8 rounded-full shadow-lg bg-strongCyan duration-200 hover:opacity-80">
+                        Download para Windows
+                    </a>
+                    <a href="#" class="p-4 px-8 rounded-full shadow-lg bg-lightBlue duration-200 hover:opacity-80">
+                        Download para Linux
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-gray-50">
+            <div class="section-container">
+                <div class="flex flex-col items-center justify-between md:flex-row">
+                    <!-- Image -->
+                    <img src="images/logo.svg" alt="" class="scale-50" />
+                    <!-- Container for Menus & Social -->
+                    <div
+                        class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-grayishBlue">
+                        <!-- Menus -->
+                        <div class="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0">
+                            <!-- Menu 1 -->
+                            <div class="flex flex-col space-y-4 text-center md:text-left">
+                                <div><a href="#" class="hover:text-strongCyan">FAQs</a></div>
+                                <div>
+                                    <a href="#" class="hover:text-strongCyan">Contato</a>
+                                </div>
+                            </div>
+                            <!-- Menu 2 -->
+                            <div class="flex flex-col space-y-4 text-center md:text-left">
+                                <div>
+                                    <a href="#" class="hover:text-strongCyan">Política de privacidade</a>
+                                </div>
+                                <div>
+                                    <a href="#" class="hover:text-strongCyan">Kit de conferência</a>
+                                </div>
+                            </div>
+                            <!-- Menu 3 -->
+                            <div class="flex flex-col space-y-4 text-center md:text-left">
+                                <div>
+                                    <a href="#" class="hover:text-strongCyan">Guia de instalação</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Icons -->
+                        <div class="flex justify-between w-32 py-1">
+                            <a href="#"><img src="images/icon-facebook.svg" alt="" class="duration-200 ficon" /></a>
+                            <a href="#"><img src="images/icon-twitter.svg" alt="" class="duration-200 ficon" /></a>
+                            <a href="#"><img src="images/icon-instagram.svg" alt="" class="duration-200 ficon" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
